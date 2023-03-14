@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: A1natas
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: A1natas
 language: en
 timezone: ''
 
@@ -97,9 +97,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: cupertino
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:A1natas/A1natas.github.io.git
+  branch: main
